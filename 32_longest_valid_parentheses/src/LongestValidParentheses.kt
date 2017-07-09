@@ -5,8 +5,8 @@ fun getLongestValidParentheses(inputStr: String) {
     val stack = ArrayList<Char>()
     var validLen = 0
     var popChar: Char
-    val leftChar: Char = '('
-    val rightChar: Char = ')'
+    val leftChar = '('
+    val rightChar = ')'
     var hasRight = false
 
     inputStr.map { it ->
