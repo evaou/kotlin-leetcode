@@ -4,6 +4,7 @@
 
 # Data Structure
 - [Linked List](#linked-list)
+- [Hash Table](#hash-table)
 - [Stack](#stack)
 
 ### Linked List
@@ -16,6 +17,14 @@ The last node is **null**.
 - Extra memory for pointer
 - LeetCode
 [160](https://leetcode.com/problems/intersection-of-two-linked-lists/#/description)
+
+### Hash Table
+**Hash table** uses an array to store data with the unique generated index.
+**Hash function** converts a key to an array index, 
+which easily computes and uniformly distributes the keys.
+- Fast insertion or search
+- LeetCode
+[37](https://leetcode.com/problems/sudoku-solver/#/description)
 
 ### Stack
 
