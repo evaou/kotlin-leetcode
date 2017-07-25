@@ -5,6 +5,7 @@
 # Data Structure
 - [Linked List](#linked-list)
 - [Hash Table](#hash-table)
+- [Tree](#tree)
 - [Stack](#stack)
 
 ### Linked List
@@ -26,7 +27,16 @@ which easily computes and uniformly distributes the keys.
 - LeetCode
 [37](https://leetcode.com/problems/sudoku-solver/#/description)
 
+### Tree
+The topmost node is called **root**. 
+**Parent** and **children** nodes are directly above or under each other.
+The node which has no children is called **leave**.
+- Hierarchical data
+- LeetCode
+[113](https://leetcode.com/problems/path-sum-ii/#/description)
+
 ### Stack
 
 - LeetCode
 [32](https://leetcode.com/problems/longest-valid-parentheses/#/description)
+[46](https://leetcode.com/problems/permutations/#/description)
