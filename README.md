@@ -7,6 +7,7 @@
 - [Hash Table](#hash-table)
 - [Tree](#tree)
 - [Stack](#stack)
+- [Other](#other)
 
 ### Linked List
 A linked list is represented by a pointer to the first node called **head**.
@@ -39,4 +40,7 @@ The node which has no children is called **leave**.
 
 - LeetCode
 [32](https://leetcode.com/problems/longest-valid-parentheses/#/description)
+
+### Other
+- LeetCode
 [46](https://leetcode.com/problems/permutations/#/description)
