@@ -1,3 +1,5 @@
+import java.io.File
+import java.util.Scanner
 
 fun printArray(array: IntArray) {
     for (i in 0 until array.size) {
@@ -12,7 +14,6 @@ fun swap(array: IntArray, firstIndex: Int, secondIndex: Int) {
     array[secondIndex] = temp
 }
 
-
 fun permu(array: IntArray, startIndex: Int, endIndex: Int) {
     if (startIndex == endIndex) {
         printArray(array)
@@ -26,10 +27,18 @@ fun permu(array: IntArray, startIndex: Int, endIndex: Int) {
 }
 
 fun main(args: Array<String>) {
-    val num = 4
-    val array = IntArray(num)
+    val filename = "input.txt"
+    val file = File(filename)
+    val input = Scanner(file)
+    val list = mutableListOf<Int>()
 
-    for (i in 1..num) {
+    while (input.hasNextInt()) {
+        list.add(input.nextInt())
+    }
+
+    val array = list.toIntArray()
+
+    for (i in 1 until array.size) {
         array[i-1] = i
     }
 
