@@ -13,6 +13,8 @@ Produce a runnable JAR assembly
     $ kotlinc 1_two_sum.kt -include-runtime -d result.jar
     $ java -jar result.jar
 
+## Data Structure
+
 ### Linked List
 A linked list is represented by a pointer to the first node called **head**.
 Each node contains a **data** and a pointer to the **next** node. 
