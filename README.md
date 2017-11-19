@@ -1,19 +1,17 @@
 # Kotlin LeetCode
 - [How to Run Kotlin Program](#how-to-run-kotlin-program)    
-- [LeetCode Problems by Data Structure](#data-structure)    
+- [LeetCode Problems](https://leetcode.com/problemset/all/)    
+    * [Linked List](#linked-list)
+    * [Hash Table](#hash-table)
+    * [Tree](#tree)
+    * [Stack](#stack)
+    * [Other](#other)
 
 ## How to Run Kotlin Program 
 Produce a runnable JAR assembly
 
     $ kotlinc 1_two_sum.kt -include-runtime -d result.jar
     $ java -jar result.jar
-
-## Data Structure
-- [Linked List](#linked-list)
-- [Hash Table](#hash-table)
-- [Tree](#tree)
-- [Stack](#stack)
-- [Other](#other)
 
 ### Linked List
 A linked list is represented by a pointer to the first node called **head**.
