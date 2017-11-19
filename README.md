@@ -1,8 +1,14 @@
 # Kotlin LeetCode
+- [How to Run Kotlin Program](#how-to-run-kotlin-program)    
+- [LeetCode Problems by Data Structure](#data-structure)    
 
-- [LeetCode Problems](https://leetcode.com/problemset/all/)
+## How to Run Kotlin Program 
+Produce a runnable JAR assembly
 
-# Data Structure
+    $ kotlinc 1_two_sum.kt -include-runtime -d result.jar
+    $ java -jar result.jar
+
+## Data Structure
 - [Linked List](#linked-list)
 - [Hash Table](#hash-table)
 - [Tree](#tree)
@@ -26,6 +32,7 @@ The last node is **null**.
 which easily computes and uniformly distributes the keys.
 - Fast insertion or search
 - LeetCode
+[1](https://leetcode.com/problems/two-sum/description/)
 [37](https://leetcode.com/problems/sudoku-solver/#/description)
 
 ### Tree
