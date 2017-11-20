@@ -10,7 +10,7 @@
 ## How to Run Kotlin Program 
 Produce a runnable JAR assembly
 
-    $ kotlinc 1_two_sum.kt -include-runtime -d result.jar
+    $ kotlinc solution/1_two_sum.kt -include-runtime -d result.jar
     $ java -jar result.jar
 
 ## Data Structure
