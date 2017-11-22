@@ -24,6 +24,7 @@ The last node is **null**.
 - No random access
 - Extra memory for pointer
 - LeetCode
+[2](https://leetcode.com/problems/add-two-numbers/description/),
 [160](https://leetcode.com/problems/intersection-of-two-linked-lists/#/description)
 
 ### Hash Table
@@ -32,7 +33,7 @@ The last node is **null**.
 which easily computes and uniformly distributes the keys.
 - Fast insertion or search
 - LeetCode
-[1](https://leetcode.com/problems/two-sum/description/)
+[1](https://leetcode.com/problems/two-sum/description/),
 [37](https://leetcode.com/problems/sudoku-solver/#/description)
 
 ### Tree
