@@ -34,6 +34,7 @@ which easily computes and uniformly distributes the keys.
 - Fast insertion or search
 - LeetCode
 [1](https://leetcode.com/problems/two-sum/description/),
+[3](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/),
 [37](https://leetcode.com/problems/sudoku-solver/#/description)
 
 ### Tree
