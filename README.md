@@ -4,6 +4,7 @@
     * [Linked List](#linked-list)
     * [Hash Table](#hash-table)
     * [Tree](#tree)
+    * [Array](#array)
     * [Stack](#stack)
     * [Other](#other)
 
@@ -44,6 +45,11 @@ The node which has no children is called **leave**.
 - Hierarchical data
 - LeetCode
 [113](https://leetcode.com/problems/path-sum-ii/#/description)
+
+### Array
+**Array** holds a fix number of items with the same type.
+- LeetCode
+[5](https://leetcode.com/problems/longest-palindromic-substring/description/)
 
 ### Stack
 - LeetCode
