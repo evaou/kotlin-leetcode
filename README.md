@@ -50,7 +50,8 @@ The node which has no children is called **leave**.
 **Array** holds a fix number of items with the same type.
 - LeetCode
 [5](https://leetcode.com/problems/longest-palindromic-substring/description/),
-[6](https://leetcode.com/problems/zigzag-conversion/description/)
+[6](https://leetcode.com/problems/zigzag-conversion/description/),
+[7](https://leetcode.com/problems/reverse-integer/description/)
 
 ### Stack
 - LeetCode
