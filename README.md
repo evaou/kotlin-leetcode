@@ -51,7 +51,8 @@ The node which has no children is called **leave**.
 - LeetCode
 [5](https://leetcode.com/problems/longest-palindromic-substring/description/),
 [6](https://leetcode.com/problems/zigzag-conversion/description/),
-[7](https://leetcode.com/problems/reverse-integer/description/)
+[7](https://leetcode.com/problems/reverse-integer/description/),
+[8](https://leetcode.com/problems/string-to-integer-atoi/description/)
 
 ### Stack
 - LeetCode
