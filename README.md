@@ -15,12 +15,12 @@
 
 ## How to Run Kotlin Program 
 Produce a runnable JAR assembly
-+ **-d** indicates what we want the output of the compiler to be called
-+ **-include-runtime** makes the resulting .jar file self-contained and runnable by including the Kotlin runtime library in it
-
 
     $ kotlinc solution/1_two_sum.kt -include-runtime -d result.jar
     $ java -jar result.jar
+
++ **-d** indicates what we want the output of the compiler to be called
++ **-include-runtime** makes the resulting .jar file self-contained and runnable by including the Kotlin runtime library in it
 
 Produce a library
 
