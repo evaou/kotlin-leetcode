@@ -1,4 +1,5 @@
 # Kotlin LeetCode
+- [How to Install Kotlin](#how-to-install-kotlin)    
 - [How to Run Kotlin Program](#how-to-run-kotlin-program)    
 - [LeetCode Problems](https://leetcode.com/problemset/all/)    
     * [Linked List](#linked-list)
@@ -8,12 +9,24 @@
     * [Stack](#stack)
     * [Other](#other)
 
+## How to Install Kotlin
+
+    $ sdk install kotlin 
+
 ## How to Run Kotlin Program 
 Produce a runnable JAR assembly
++ **-d** indicates what we want the output of the compiler to be called
++ **-include-runtime** makes the resulting .jar file self-contained and runnable by including the Kotlin runtime library in it
+
 
     $ kotlinc solution/1_two_sum.kt -include-runtime -d result.jar
     $ java -jar result.jar
 
+Produce a library
+
+    $ kotlinc solution/1_two_sum.kt -d result.jar
+    $ kotlin -classpath result.jar _1_two_sumKt
+    
 ## Data Structure
 
 ### Linked List
