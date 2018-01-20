@@ -14,15 +14,15 @@
     $ sdk install kotlin 
 
 ## How to Run Kotlin Program 
-Produce a runnable JAR assembly
+Compile a application
 
     $ kotlinc solution/1_two_sum.kt -include-runtime -d result.jar
     $ java -jar result.jar
 
-+ **-d** indicates what we want the output of the compiler to be called
 + **-include-runtime** makes the resulting .jar file self-contained and runnable by including the Kotlin runtime library in it
++ **-d** indicates what we want the output of the compiler to be called
 
-Produce a library
+Compile a library
 
     $ kotlinc solution/1_two_sum.kt -d result.jar
     $ kotlin -classpath result.jar _1_two_sumKt
