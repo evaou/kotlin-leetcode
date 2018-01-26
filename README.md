@@ -69,7 +69,8 @@ The node which has no children is called **leave**.
 [6](https://leetcode.com/problems/zigzag-conversion/description/),
 [7](https://leetcode.com/problems/reverse-integer/description/),
 [8](https://leetcode.com/problems/string-to-integer-atoi/description/),
-[9](https://leetcode.com/problems/palindrome-number/description/)
+[9](https://leetcode.com/problems/palindrome-number/description/),
+[14](https://leetcode.com/problems/longest-common-prefix/description/)
 
 ### Stack
 - LeetCode
