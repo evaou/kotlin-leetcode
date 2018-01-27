@@ -74,6 +74,7 @@ The node which has no children is called **leave**.
 
 ### Stack
 - LeetCode
+[20](https://leetcode.com/problems/valid-parentheses/description/),
 [32](https://leetcode.com/problems/longest-valid-parentheses/#/description),
 [84](https://leetcode.com/problems/largest-rectangle-in-histogram/#/description)
 
