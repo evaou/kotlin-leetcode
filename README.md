@@ -39,6 +39,7 @@ The last node is **null**.
 - Extra memory for pointer
 - LeetCode
 [2](https://leetcode.com/problems/add-two-numbers/description/),
+[21](https://leetcode.com/problems/merge-two-sorted-lists/description/),
 [160](https://leetcode.com/problems/intersection-of-two-linked-lists/#/description)
 
 ### Hash Table
