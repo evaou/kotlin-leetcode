@@ -72,7 +72,8 @@ The node which has no children is called **leave**.
 [8](https://leetcode.com/problems/string-to-integer-atoi/description/),
 [9](https://leetcode.com/problems/palindrome-number/description/),
 [14](https://leetcode.com/problems/longest-common-prefix/description/),
-[26](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/)
+[26](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/), 
+[27](https://leetcode.com/problems/remove-element/description/)
 
 ### Stack
 - LeetCode
