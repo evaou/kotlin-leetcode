@@ -61,7 +61,8 @@ The topmost node is called **root**.
 The node which has no children is called **leave**.
 - Hierarchical data
 - LeetCode
-[113](https://leetcode.com/problems/path-sum-ii/#/description)
+[113](https://leetcode.com/problems/path-sum-ii/#/description),
+[669](https://leetcode.com/problems/trim-a-binary-search-tree/description/)
 
 ### Array
 **Array** holds a fix number of items with the same type.
