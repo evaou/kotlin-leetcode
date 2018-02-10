@@ -62,7 +62,8 @@ The node which has no children is called **leave**.
 - Hierarchical data
 - LeetCode
 [113](https://leetcode.com/problems/path-sum-ii/#/description),
-[669](https://leetcode.com/problems/trim-a-binary-search-tree/description/)
+[669](https://leetcode.com/problems/trim-a-binary-search-tree/description/),
+[687](https://leetcode.com/problems/longest-univalue-path/description/)
 
 ### Array
 **Array** holds a fix number of items with the same type.
