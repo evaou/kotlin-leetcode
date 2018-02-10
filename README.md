@@ -78,7 +78,8 @@ The node which has no children is called **leave**.
 [26](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/), 
 [27](https://leetcode.com/problems/remove-element/description/),
 [28](https://leetcode.com/problems/implement-strstr/description/),
-[35](https://leetcode.com/problems/search-insert-position/description/)
+[35](https://leetcode.com/problems/search-insert-position/description/),
+[766](https://leetcode.com/problems/toeplitz-matrix/description/)
 
 ### Stack
 - LeetCode
