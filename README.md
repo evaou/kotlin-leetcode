@@ -53,7 +53,8 @@ which easily computes and uniformly distributes the keys.
 [3](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/),
 [12](https://leetcode.com/problems/integer-to-roman/description/),
 [13](https://leetcode.com/problems/roman-to-integer/description/),
-[37](https://leetcode.com/problems/sudoku-solver/#/description)
+[37](https://leetcode.com/problems/sudoku-solver/#/description),
+[746](https://leetcode.com/problems/min-cost-climbing-stairs/description/)
 
 ### Tree
 The topmost node is called **root**. 
