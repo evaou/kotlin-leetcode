@@ -91,4 +91,5 @@ The node which has no children is called **leave**.
 
 ### Other
 - LeetCode
-[46](https://leetcode.com/problems/permutations/#/description)
+[46](https://leetcode.com/problems/permutations/#/description),
+[728](https://leetcode.com/problems/self-dividing-numbers/description/)
