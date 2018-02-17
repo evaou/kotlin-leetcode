@@ -54,6 +54,7 @@ which easily computes and uniformly distributes the keys.
 [12](https://leetcode.com/problems/integer-to-roman/description/),
 [13](https://leetcode.com/problems/roman-to-integer/description/),
 [37](https://leetcode.com/problems/sudoku-solver/#/description),
+[718](https://leetcode.com/problems/maximum-length-of-repeated-subarray/description/),
 [746](https://leetcode.com/problems/min-cost-climbing-stairs/description/),
 [767](https://leetcode.com/problems/reorganize-string/description/)
 
