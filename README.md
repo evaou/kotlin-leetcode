@@ -66,6 +66,7 @@ The node which has no children is called **leave**.
 - LeetCode
 [113](https://leetcode.com/problems/path-sum-ii/#/description),
 [669](https://leetcode.com/problems/trim-a-binary-search-tree/description/),
+[684](https://leetcode.com/problems/redundant-connection/description/),
 [687](https://leetcode.com/problems/longest-univalue-path/description/)
 
 ### Array
