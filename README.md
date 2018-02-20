@@ -56,6 +56,7 @@ which easily computes and uniformly distributes the keys.
 [37](https://leetcode.com/problems/sudoku-solver/#/description),
 [718](https://leetcode.com/problems/maximum-length-of-repeated-subarray/description/),
 [746](https://leetcode.com/problems/min-cost-climbing-stairs/description/),
+[763](https://leetcode.com/problems/partition-labels/description/),
 [767](https://leetcode.com/problems/reorganize-string/description/)
 
 ### Tree
