@@ -89,6 +89,11 @@ The node which has no children is called **leave**.
 [744](https://leetcode.com/problems/find-smallest-letter-greater-than-target/description/),
 [766](https://leetcode.com/problems/toeplitz-matrix/description/)
 
+### List
+**List** can add/remove element and check if the list contains certain element
+- LeetCode
+[526](https://leetcode.com/problems/beautiful-arrangement/description/)
+
 ### Stack
 - LeetCode
 [20](https://leetcode.com/problems/valid-parentheses/description/),
