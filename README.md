@@ -93,6 +93,7 @@ The node which has no children is called **leave**.
 **List** can add/remove element and check if the list contains certain element
 - LeetCode
 [46](https://leetcode.com/problems/permutations/description/),
+[78](https://leetcode.com/problems/subsets/description/),
 [526](https://leetcode.com/problems/beautiful-arrangement/description/)
 
 ### Stack
