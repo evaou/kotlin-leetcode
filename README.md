@@ -94,6 +94,7 @@ The node which has no children is called **leave**.
 - LeetCode
 [39](https://leetcode.com/problems/combination-sum/description/),
 [46](https://leetcode.com/problems/permutations/description/),
+[51](https://leetcode.com/problems/n-queens/description/),
 [78](https://leetcode.com/problems/subsets/description/),
 [526](https://leetcode.com/problems/beautiful-arrangement/description/)
 
