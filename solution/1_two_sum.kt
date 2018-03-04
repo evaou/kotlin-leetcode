@@ -1,17 +1,17 @@
 class Solution {
     fun twoSum(nums: IntArray, target: Int): IntArray {
-        val hasMap = HashMap<Int, Int>()
-        var result = IntArray(2)
+        val result = IntArray(2)
+        val compTable = HashMap<Int, Int>()
+        var compValue: Int
 
-        for (i in nums.indices) {
-            val complement = target - nums[i]
-
-            if (hasMap.containsKey(complement)) {
-                result = intArrayOf(i, hasMap.getValue(complement))
-                break
+        for (i in 0 until nums.size) {
+            compValue = target - nums[i]
+            if (compTable.containsKey(compValue)) {
+                result[0] = compTable.getValue(compValue)
+                result[1] = i
+            } else {
+                compTable.put(nums[i], i)
             }
-
-            hasMap.put(nums[i], i)
         }
 
         return result
@@ -19,18 +19,13 @@ class Solution {
 }
 
 fun main(args: Array<String>) {
-    val nums = intArrayOf(2, 7, 11, 15)
-    val target = 9
     val sol = Solution()
+    val nums = intArrayOf(3, 2, 4)
+    val target = 6
+    val result: IntArray
 
-    val result = sol.twoSum(nums, target)
-
-    print("[")
-    for (i in result.indices) {
-        print("${result[i]}")
-        if (i != result.lastIndex) {
-            print(", ")
-        }
-    }
-    println("]")
+    result = sol.twoSum(nums, target)
+    println(result.toList().toString())
 }
+
+
