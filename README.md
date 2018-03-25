@@ -96,6 +96,7 @@ The node which has no children is called **leave**.
 [46](https://leetcode.com/problems/permutations/description/),
 [51](https://leetcode.com/problems/n-queens/description/),
 [78](https://leetcode.com/problems/subsets/description/),
+[329](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/description/),
 [526](https://leetcode.com/problems/beautiful-arrangement/description/)
 
 ### Stack
