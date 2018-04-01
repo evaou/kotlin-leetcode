@@ -85,6 +85,7 @@ The node which has no children is called **leave**.
 [27](https://leetcode.com/problems/remove-element/description/),
 [28](https://leetcode.com/problems/implement-strstr/description/),
 [35](https://leetcode.com/problems/search-insert-position/description/),
+[486](https://leetcode.com/problems/predict-the-winner/description/),
 [658](https://leetcode.com/problems/find-k-closest-elements/description/),
 [733](https://leetcode.com/problems/flood-fill/description/),
 [744](https://leetcode.com/problems/find-smallest-letter-greater-than-target/description/),
