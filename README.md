@@ -41,7 +41,8 @@ The last node is **null**.
 [2](https://leetcode.com/problems/add-two-numbers/description/),
 [21](https://leetcode.com/problems/merge-two-sorted-lists/description/),
 [24](https://leetcode.com/problems/swap-nodes-in-pairs/description/),
-[160](https://leetcode.com/problems/intersection-of-two-linked-lists/#/description)
+[160](https://leetcode.com/problems/intersection-of-two-linked-lists/#/description),
+[382](https://leetcode.com/problems/linked-list-random-node/description/)
 
 ### Hash Table
 **Hash table** uses an array to store data with the unique generated index.
