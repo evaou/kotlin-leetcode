@@ -1,13 +1,15 @@
 # Kotlin LeetCode
 - [How to Install Kotlin](#how-to-install-kotlin)    
 - [How to Run Kotlin Program](#how-to-run-kotlin-program)    
-- [LeetCode Problems](https://leetcode.com/problemset/all/)    
-    * [Linked List](#linked-list)
-    * [Hash Table](#hash-table)
-    * [Tree](#tree)
-    * [Array](#array)
-    * [Stack](#stack)
-    * [Other](#other)
+- [LeetCode Problems](#leetcode-problems)   
+  - [Minimax](#minimax)
+- [Data Structure](#data-structure) 
+    - [Linked List](#linked-list)
+    - [Hash Table](#hash-table)
+    - [Tree](#tree)
+    - [Array](#array)
+    - [Stack](#stack)
+    - [Other](#other)
 
 ## How to Install Kotlin
 
@@ -26,6 +28,12 @@ Compile a library
 
     $ kotlinc solution/1_two_sum.kt -d result.jar
     $ kotlin -classpath result.jar _1_two_sumKt
+
+## [LeetCode Problems](https://leetcode.com/problemset/all/)
+
+### [Minimax](https://leetcode.com/tag/minimax/)
+The topic is to maximize the first player and minimize the second player. Both players play optimally.The solution is to use recursion with memorization.
+
     
 ## Data Structure
 
