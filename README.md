@@ -32,7 +32,9 @@ Compile a library
 ## [LeetCode Problems](https://leetcode.com/problemset/all/)
 
 ### [Minimax](https://leetcode.com/tag/minimax/)
-The topic is to maximize the first player and minimize the second player. Both players play optimally.The solution is to use recursion with memorization.
+Minimax is a kind of backtracking algorithm. There are two players who both play optimally. 
+The **maximizer** tries to get the highest score while the **minimizer** tries to get the lowest score. 
+The solution is to use recursion with memorization.
 
     
 ## Data Structure
