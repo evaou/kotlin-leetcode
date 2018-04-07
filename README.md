@@ -32,7 +32,8 @@ Compile a library
 ## [LeetCode Problems](https://leetcode.com/problemset/all/)
 
 ### [Minimax](https://leetcode.com/tag/minimax/)
-Minimax is a kind of backtracking algorithm. There are two players who both play optimally. 
+Minimax is to minimize the possible loss for a worst case scenario. 
+There are two players who both play optimally. 
 The **maximizer** tries to get the highest score while the **minimizer** tries to get the lowest score. 
 The solution is to use recursion with memorization.
 
