@@ -32,7 +32,7 @@ Compile a library
 
 ## [LeetCode Problems](https://leetcode.com/problemset/all/)
 
-###[Brainteaser](https://leetcode.com/tag/brainteaser/)
+### [Brainteaser](https://leetcode.com/tag/brainteaser/)
 
 ### [Minimax](https://leetcode.com/tag/minimax/)
 Minimax is to minimize the possible loss for a worst case scenario. 
