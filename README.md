@@ -2,6 +2,7 @@
 - [How to Install Kotlin](#how-to-install-kotlin)    
 - [How to Run Kotlin Program](#how-to-run-kotlin-program)    
 - [LeetCode Problems](#leetcode-problems)   
+  - [Brainteaser](#brainteaser)
   - [Minimax](#minimax)
 - [Data Structure](#data-structure) 
     - [Linked List](#linked-list)
@@ -30,6 +31,8 @@ Compile a library
     $ kotlin -classpath result.jar _1_two_sumKt
 
 ## [LeetCode Problems](https://leetcode.com/problemset/all/)
+
+###[Brainteaser](https://leetcode.com/tag/brainteaser/)
 
 ### [Minimax](https://leetcode.com/tag/minimax/)
 Minimax is to minimize the possible loss for a worst case scenario. 
