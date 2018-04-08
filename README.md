@@ -44,7 +44,7 @@ The solution is to use recursion with memorization.
 ### [Topological Sort](https://leetcode.com/tag/topological-sort/)
 Topological Sort is for DAG (Directed Acyclic Graph) and is a linear ordering of vertices in which every directed edge has the first vertex come before the second vertex.
 The solution is based on DFS (Depth First Search) and pushes a vertex into stack when all of its adjacent vertices are in stack.
-Adjacency list is used to represent a graph.
+DAG is represented with adjacency list.
     
 ## Data Structure
 
