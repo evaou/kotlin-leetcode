@@ -41,6 +41,8 @@ There are two players who both play optimally.
 The **maximizer** tries to get the highest score while the **minimizer** tries to get the lowest score. 
 The solution is to use recursion with memorization.
 
+### [Queue](https://leetcode.com/tag/queue/)
+
 ### [Topological Sort](https://leetcode.com/tag/topological-sort/)
 Topological Sort is for DAG (Directed Acyclic Graph) and is a linear ordering of vertices in which every directed edge has the first vertex come before the second vertex.
 The solution is based on DFS (Depth First Search) and pushes a vertex into stack when all of its adjacent vertices are in stack.
