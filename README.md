@@ -33,6 +33,21 @@ Compile a library
 
 ## [LeetCode Problems](https://leetcode.com/problemset/all/)
 
+### [Bit Manipulation](https://leetcode.com/tag/bit-manipulation/)
+- shr()/shl() moves one bit right/left
+- Bit operators are and/or/xor/inv()
+- a^b = x <=> a^x = b
+- (a^b)^b = a <=> a^0 = a
+- a = a^a^a
+- n and  -n: get the rightmost set bit
+- n's 1 bit count = (n/2)'s 1 bit count + (n and 1)
+- 2's complement = n.inv() + 1
+- Hamming distance is the bit count at which position the two integer's bits are different
+- Total hamming distance is the sum of 0 bit count timing 1 bit count at each bit position
+- UTF-8 (8-bit Unicode Transformation Format) has 1-4 bytes, 1 byte has highest 0 bit. 
+For n (2/3/4) bytes, the first byte has n highest 1 bits and prefix 01 bits for the following n-1 bytes
+- Moore's voting algorithm: cancel out two different elements, the remaining one is 
+
 ### [Brainteaser](https://leetcode.com/tag/brainteaser/)
 
 ### [Minimax](https://leetcode.com/tag/minimax/)
