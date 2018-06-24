@@ -1,7 +1,8 @@
 # Kotlin LeetCode
 - [How to Install Kotlin](#how-to-install-kotlin)    
 - [How to Run Kotlin Program](#how-to-run-kotlin-program)    
-- [LeetCode Problems](#leetcode-problems)   
+- [LeetCode Problems](#leetcode-problems)  
+  - [Bit Manipulation](#bit-manipulation) 
   - [Brainteaser](#brainteaser)
   - [Minimax](#minimax)
   - [Topological Sort](#topological-sort)
