@@ -51,6 +51,11 @@ For n (2/3/4) bytes, the first byte has n highest 1 bits and prefix 01 bits for 
 
 ### [Brainteaser](https://leetcode.com/tag/brainteaser/)
 
+### [Linked List](https://leetcode.com/tag/linked-list/)
+- quotient (/) and remainder (%)
+- java.util.Stack
+- find middle node by twice move pointer
+
 ### [Minimax](https://leetcode.com/tag/minimax/)
 Minimax is to minimize the possible loss for a worst case scenario. 
 There are two players who both play optimally. 
