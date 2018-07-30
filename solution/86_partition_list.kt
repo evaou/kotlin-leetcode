@@ -5,41 +5,28 @@ class ListNode(var `val`: Int = 0) {
 
 class Solution {
     fun partition(head: ListNode?, x: Int): ListNode? {
-        if (head?.next == null || x < 1) {
-            return head
-        }
+        var curNode = head
+        var smallerList: ListNode? = ListNode(-1)
+        var largerList: ListNode? = ListNode(-1)
+        val smallHead = smallerList
+        val largeHead = largerList
 
-        val dummyHead: ListNode? = ListNode(-1)
-        var curNode = dummyHead
-        var preFirstLargeNode: ListNode? = null
-        var tmpNode: ListNode?
-
-        dummyHead?.next = head
-
-        while (curNode?.next != null) {
-            if (curNode.next!!.`val` >= x) {
-                if (preFirstLargeNode == null) {
-                    preFirstLargeNode = curNode
-                }
+        while (curNode != null) {
+            if (curNode.`val` < x) {
+                smallerList?.next = curNode
+                smallerList = smallerList?.next
             } else {
-                if (preFirstLargeNode != null) {
-                    tmpNode = curNode.next
-                    curNode.next = tmpNode?.next
-                    tmpNode?.next = preFirstLargeNode.next
-                    preFirstLargeNode.next = tmpNode
-                    preFirstLargeNode = tmpNode
-                }
+                largerList?.next = curNode
+                largerList = largerList?.next
             }
 
             curNode = curNode.next
         }
 
-        if (curNode != null && preFirstLargeNode != null) {
-            curNode.next = preFirstLargeNode.next
-            preFirstLargeNode.next = curNode
-        }
+        smallerList?.next = largeHead?.next
+        largerList?.next = null
 
-        return dummyHead?.next
+        return smallHead?.next
     }
 
     fun printNode(head: ListNode?) {
@@ -68,8 +55,8 @@ class Solution {
 
 fun main(args: Array<String>) {
     val sol = Solution()
-    val input = intArrayOf(1, 1) //intArrayOf(1, 4, 3, 2, 5, 2)
-    val x = 0//
+    val input = intArrayOf(1, 4, 3, 2, 5, 2)
+    val x = 3
     var head: ListNode?
 
     head = sol.buildList(input)
