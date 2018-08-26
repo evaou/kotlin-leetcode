@@ -46,6 +46,7 @@ For n (2/3/4) bytes, the first byte has n highest 1 bits and prefix 01 bits for 
 
 ### [Heap](https://leetcode.com/tag/heap/)
 - java.util.PriorityQueue
+- use poll() instead of checking the data structure
 
 ### [Linked List](https://leetcode.com/tag/linked-list/)
 - quotient (/) and remainder (%)
