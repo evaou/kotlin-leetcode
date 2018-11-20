@@ -27,6 +27,8 @@ Compile a library
 
 ## [LeetCode Problems](https://leetcode.com/problemset/all/)
 
+### [Array](https://leetcode.com/tag/array/)
+
 ### [Bit Manipulation](https://leetcode.com/tag/bit-manipulation/)
 - shr()/shl() moves one bit right/left
 - Bit operators are and/or/xor/inv()
